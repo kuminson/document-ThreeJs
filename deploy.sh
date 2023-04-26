@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-pnpm run docs:build
+pnpm build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f git@github.com:kuminson/document-ThreeJs.git master:gh-pages
 
 cd -
