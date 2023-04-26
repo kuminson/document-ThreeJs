@@ -3,6 +3,7 @@ module.exports = {
   description: '基础概念、简单动画、简易交互',
   host: '0.0.0.0',
   port: '9001',
+  base: '/document-ThreeJs/',
   markdown: {
     lineNumbers: true
   },
